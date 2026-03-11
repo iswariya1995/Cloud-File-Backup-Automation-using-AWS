@@ -38,7 +38,7 @@ EFS → EC2 (inotify monitoring) → AWS CLI → S3
 
 Files created or modified in **EFS** are detected by **inotify**, and the changes are automatically synced to **Amazon S3**.
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4eff33cf-5a89-4eaf-9a88-67ec428f2529" />
+<img width="900" height="600" alt="EFS to S3 Architecture" src="https://github.com/user-attachments/assets/4eff33cf-5a89-4eaf-9a88-67ec428f2529" />
 
 ---
 
