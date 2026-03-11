@@ -1,0 +1,12 @@
+[Unit]
+Description=EFS to S3 Real-Time Sync Service
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+User=ec2-user
+ExecStart=/home/ec2-user/efs_sync.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
